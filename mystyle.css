@@ -54,3 +54,15 @@ a:link {
   .header {
     display: grid;
   }
+
+  #unique { 
+      color:rgb(64, 59, 78);
+  }
+
+  a[title] { 
+    color:rgb(64, 59, 78);
+  }
+
+  h1 + p{
+      color:rgb(86, 71, 109);
+  }
