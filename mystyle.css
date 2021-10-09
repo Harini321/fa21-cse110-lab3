@@ -1,0 +1,68 @@
+/* stylesheet for meeting minutes */
+
+body {background-color: #e4cae8;}
+
+ul {
+  margin-top: 10px;
+  border: 2px solid rebeccapurple;
+  border-radius: ch;
+  padding-top: 10px;
+}
+
+h2{
+    margin: top;
+    position: relative;
+}
+
+
+  /* unvisited link */
+a:link {
+    color: rgb(86, 71, 109);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hsl(262, 97.6, 51.6);
+
+  }
+
+  h3 {
+      color: rgb(64, 59, 78);
+      text-decoration-line: underline;
+      text-align: justify;
+  }
+
+  ol{
+    margin: auto;
+    border: em solid rebeccapurple;
+    border-radius: ex;
+    padding: bottom;
+  }
+
+  div {
+    height: 200px;
+    width: 50%;
+    max-width: fit-content;
+    min-width: none;
+    position: static;
+  }
+
+  .grid-container {
+    display: grid;
+  }
+
+  .header {
+    display: grid;
+  }
+
+  #unique { 
+      color:rgb(64, 59, 78);
+  }
+
+  a[title] { 
+    color:rgb(64, 59, 78);
+  }
+
+  h1 + p{
+      color:rgb(86, 71, 109);
+  }
